@@ -22,8 +22,18 @@ namespace ConsoleApp1
             //var b = Console.ReadLine();
             //decimal b1 = Convert.ToDecimal(b);
 
-            Console.WriteLine("c = a+b : {0}", feature.Add());
-            Console.WriteLine("c = a*b : {0}", feature2.Multiply());
+
+            //Console.WriteLine("c = a+b : {0}", feature.Add());
+            //Console.WriteLine("c = a*b : {0}", feature2.Multiply());
+
+            var jules = new User
+            {
+                Nom = "Pelaho",
+                //Prenom = "Jules"
+            };
+            Console.WriteLine(jules.Nom);
+            Console.WriteLine("c = a*b : {0}", feature.Add());
+
             Console.ReadLine();
         }
     }
