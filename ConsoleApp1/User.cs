@@ -10,5 +10,10 @@ namespace ConsoleApp1
     {
         public int Age { get; set; }
         public string Nom { get; set; }
+        public int AddFeature001()
+        {
+            feature001 feature = new feature001(1, 5);
+            return feature.Add();
+        }
     }
 }
