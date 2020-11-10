@@ -11,7 +11,8 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            feature001 feature = new feature001(5, 7);
+            var feature = new feature001(5, 7);
+            var feature2 = new feature002(5, 7);
             //Console.WriteLine("Enter a : ");
             //var a = Console.ReadLine();
 
@@ -21,7 +22,8 @@ namespace ConsoleApp1
             //var b = Console.ReadLine();
             //decimal b1 = Convert.ToDecimal(b);
 
-            Console.WriteLine("c = a*b : {0}", feature.Add());
+            Console.WriteLine("c = a+b : {0}", feature.Add());
+            Console.WriteLine("c = a*b : {0}", feature2.Multiply());
             Console.ReadLine();
         }
     }
