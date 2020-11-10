@@ -21,6 +21,12 @@ namespace ConsoleApp1
             //var b = Console.ReadLine();
             //decimal b1 = Convert.ToDecimal(b);
 
+            var jules = new User
+            {
+                Nom = "Pelaho",
+                Prenom = "Jules"
+            };
+            Console.WriteLine(jules.NomLong());
             Console.WriteLine("c = a*b : {0}", feature.Add());
             Console.ReadLine();
         }
